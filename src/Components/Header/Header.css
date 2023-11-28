@@ -1,0 +1,46 @@
+.Container{
+    width: 100%;
+    /* background-color:  cadetblue; */
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 20px;
+    position: fixed;
+    
+}
+
+.head {
+    display: flex;
+    align-items: center
+    ;
+}
+ 
+.menuIcon , .loginIcon{
+    color: whitesmoke;
+    font-weight: bold ;
+    font-size: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.loginIcon{
+    color: whitesmoke;
+}
+.loginIcon{
+    margin-right: 90px;
+    cursor: pointer;
+}
+.signinContainer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.head {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.heading {
+    color: whitesmoke;
+}

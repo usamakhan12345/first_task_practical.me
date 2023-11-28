@@ -1,0 +1,46 @@
+.sec-container{
+    height: 950px;
+    width: 100%;
+    background-color: #f4f4f8;
+   
+    margin-top: 30px;
+}
+.Mycard-container{
+    display: flex;
+    justify-content: space-around !important;
+    margin-top: 60px;
+} 
+.text-center{
+    text-align: center;
+}
+.image{
+    margin-bottom: 40px;
+}
+.MYcard{
+    height: 300px;
+    width: 350px;
+}
+.partners{
+    width: 100%;
+    height: 400px;
+    background-color: #e6e6e6;;
+}
+.types {
+    height: 400px;
+    width: 100%;
+    background-color: #119a77;;
+}
+
+.Btnn{
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: #119a77;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+.Btnn:hover{
+    background-color: whitesmoke;
+    color: #119a77;
+}

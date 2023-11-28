@@ -1,0 +1,83 @@
+.secContianer{
+   height: 1200px; 
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 120px;
+}
+.textContainer {
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: center; */
+    margin-top: 10px;
+
+}
+.pagination {
+    margin-top: 50px;
+}
+.center-text {
+    text-align: center;
+}
+.gender{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #fa7324;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gender-container {
+    display: flex;
+}
+.female {
+    background-color:  rgb(24 157 121);
+}
+
+.male-icon {
+    font-size: 90px;
+    color: whitesmoke;
+    border-color: red;
+}
+.quiz {
+    height: 250px;
+    width: 700px;
+    background-color:#f4f4f8;
+    margin-top: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 30px 10px;
+
+}
+.text-center {
+    text-align: center;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+
+
+}
+.btn{
+    height: 50px;
+    width: 220px;
+    border-radius: 30px;
+    font-weight: bold;
+    color:    rgb(24 157 121)  ;
+    border: 2px solid rgb(24 157 121);
+    font-size: 15px ;
+    padding: 5px 10px;
+}
+.btn:hover{
+    background-color:  rgb(24 157 121) ;
+    color: whitesmoke;
+    font-weight: bold;
+}
