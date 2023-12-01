@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
   return (
    <>
-   <div className='container'>
+   <div className='container-fluid'>
     <div className='text'>
         <h1>Helping You Eat <br/>  better , every day</h1>
         <button className='GetStartedbtn'>Get Started</button>

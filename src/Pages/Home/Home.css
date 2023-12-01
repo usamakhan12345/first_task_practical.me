@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
     height: 60vh;
     width: 100%;
     background-color: black;
@@ -36,3 +36,31 @@
     
 
 }
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .container {
+      background-color: lightgreen;
+    }
+    .text{
+        left: 10px;
+
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+  
+    .text{
+        left: 30px;
+    }
+    .GetStartedbtn{
+        margin-top: 5px;
+        height: 30px;
+        width: 140px;
+    font-size: 15px;
+
+    }
+  }

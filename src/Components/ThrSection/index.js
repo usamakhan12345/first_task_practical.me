@@ -1,5 +1,8 @@
 import React from 'react'
 import "./sec.css"
+import firstImage from '../../Assets/first.jpeg'
+import secondImage from '../../Assets/second.png'
+import thirdImage from '../../Assets/third.jpeg'
 const ThirdSec = () => {
     return (
         <>
@@ -10,21 +13,21 @@ const ThirdSec = () => {
                 </div>
                 <div className='Mycard-container'>
                     <div className='MYcard' >
-                        <img className='image' src='https://practical.me/_next/image?url=https%3A%2F%2Fpractical-app-assets-staging.s3.me-south-1.amazonaws.com%2Fpublic%2FsecImages%2Fdining-out-ordering-in-image.jpg&w=1920&q=75' />
+                        <img className='image' src={firstImage}/>
                         <hr />
                         <h2>Dining Out & Ordering In</h2>
                         <p className='fs-4'>Want to go out for a meal or order in ? No problem  ! Our trusted resturant & delivery parters have got you coverd Plus , You will never waste to meal a again with our unique 'Pasuse Pass' </p>
 
                     </div>
                     <div className='MYcard'>
-                        <img className='image' src='https://practical.me/_next/image?url=https%3A%2F%2Fpractical-app-assets-staging.s3.me-south-1.amazonaws.com%2Fpublic%2FsecImages%2FHow-it-works.png&w=1920&q=75' />
+                        <img className='image'  src={secondImage} />
                         <hr />
                         <h2>How It Works</h2>
                         <p className='fs-4'>Want to go out for a meal or order in ? No problem  ! Our trusted resturant & delivery parters have got you coverd Plus , You will never waste to meal a again with our unique 'Pasuse Pass' </p>
 
                     </div>
                     <div className='MYcard'>
-                        <img className='image' src='https://practical.me/_next/image?url=https%3A%2F%2Fpractical-app-assets-staging.s3.me-south-1.amazonaws.com%2Fpublic%2FsecImages%2FOur-Awesome-Food.jpg&w=1920&q=75' />
+                        <img className='image'  src={thirdImage} />
                         <hr />
                         <h2>Our Meal Plan Menu</h2>
                         <p className='fs-4'>Want to go out for a meal or order in ? No problem  ! Our trusted resturant & delivery parters have got you coverd Plus , You will never waste to meal a again with our unique 'Pasuse Pass' </p>

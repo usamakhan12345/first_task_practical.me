@@ -24,7 +24,6 @@
 .gender{
     height: 150px;
     width: 150px;
-    background-color: black;
     margin: 20px;
     border-radius: 15px;
     background-color: #fa7324;;
@@ -53,7 +52,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     padding: 30px 10px;
 
 }
@@ -81,3 +80,43 @@
     color: whitesmoke;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+    .gender-text{
+        font-size: 30px;
+    }
+    .GetStartedbtn{
+        margin-top: 5px;
+        height: 30px;
+        width: 140px;
+    font-size: 15px;
+
+    }
+    .gender{
+        height: 100px;
+        width: 100px;
+      
+        margin: 5px;
+        margin-top: 10px;
+     
+        flex-direction: column;
+    }
+    .btnContainer{
+        flex-direction: column;
+    }
+    .quiz{
+        width: 100%;
+    }
+  }

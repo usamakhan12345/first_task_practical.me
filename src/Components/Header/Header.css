@@ -1,4 +1,4 @@
-.Container{
+.Container {
     width: 100%;
     /* background-color:  cadetblue; */
     background-color: transparent;
@@ -9,38 +9,72 @@
     position: absolute;
     margin-top: 20px;
     position: fixed;
-    
+
 }
 
 .head {
     display: flex;
-    align-items: center
-    ;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 10px;
 }
- 
-.menuIcon , .loginIcon{
+
+.menuIcon {
     color: whitesmoke;
-    font-weight: bold ;
+    font-weight: bold;
     font-size: 40px;
     margin-right: 40px;
     cursor: pointer;
 }
-.loginIcon{
+
+.loginIcon {
     color: whitesmoke;
-}
-.loginIcon{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
     margin-right: 90px;
+
     cursor: pointer;
+
 }
+
 .signinContainer {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
 }
-.head {
-    margin-left: 80px;
-    margin-right: 40px;
-}
+
 .heading {
     color: whitesmoke;
+
+    .head {
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .loginIcon {
+        margin-right: 20px;
+        font-size: 30px;
+
+
+    }
+
+    .menuIcon {
+        margin-right: 10px;
+        /* margin-left: 10px; */
+        font-size: 27px;
+    }
+
+    .head {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
 }
