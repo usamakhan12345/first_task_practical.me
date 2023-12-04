@@ -32,7 +32,9 @@
     align-items: center;
 }
 .gender-container {
+    margin-top: 25px;
     display: flex;
+    position: relative;
 }
 .female {
     background-color:  rgb(24 157 121);
@@ -80,7 +82,13 @@
     color: whitesmoke;
     font-weight: bold;
 }
+.gender-heading{
+    position: absolute;
+    bottom: 18px;
+    color: #f4f4f8;
+    font-weight: bold;
 
+}
 
 
 
@@ -118,5 +126,11 @@
     }
     .quiz{
         width: 100%;
+    }
+    .gender-heading{
+        bottom: -28px;
+        color: #000;
+        
+    
     }
   }

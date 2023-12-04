@@ -16,25 +16,23 @@ const section = () => {
         <div>
           <h2>Let's get started</h2>
         </div>
-        <p style={{textAlign : 'center'}}>There are 7 key things we need to know to recommend the best Plan for you. </p>
+        <p style={{ textAlign: 'center' }}>There are 7 key things we need to know to recommend the best Plan for you. </p>
         <div className='pagination'>
           <PaginationOutlined />
         </div>
         <div className='center-text' >
           <h1 className='gender-text'>Please tell us <br /> if you are Male or Female</h1>
         </div>
+
         <div className='gender-container'>
           <div className='gender'>
-            <div>
               <IoMdMale className='male-icon' />
-            </div>
+              <h5 className='gender-heading'>Male</h5>
           </div>
-          <div><h5>Male</h5></div>
           <div className='gender female'>
             <IoMdFemale className='male-icon' />
-
+            <h5 className='gender-heading'>Female</h5>
           </div>
-          <h5>Female</h5>
 
         </div>
         <div className='quiz'>

@@ -2,31 +2,42 @@
     /* height: 950px; */
     /* height: 1500px; */
     /* height: auto; */
-    width: 100%;
+    /* width: 100%; */
     background-color: #f4f4f8;
     margin-top: 30px;
-    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-around !important;
+    /* margin-top: 60px; */
+    flex-wrap: wrap;
 }
-.Mycard-container{
+/* .Mycard-container{
     display: flex;
     justify-content: space-around !important;
     margin-top: 60px;
     flex-wrap: wrap;
-} 
+}  */
 .text-center{
     text-align: center;
 }
 .image{
     margin-bottom: 40px;
+    height: 300px !important;
+    width: 100% !important;
+    /* max-width: 100% !important; Make sure the image doesn't exceed the container */
+    object-fit: contain;
 }
 .MYcard{
-    height: 300px;
-    width: 350px;
+    width: 380px; /* Adjust the width of the card based on your design */
+  margin: 10px;
+  padding: 20px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); */
 }
 .partners{
     width: 100%;
     height: 400px;
     background-color: #e6e6e6;;
+    margin-top: 40px !important;
+    margin-top: 130px;
 }
 .types {
     height: 400px;
@@ -47,7 +58,28 @@
     background-color: whitesmoke;
     color: #119a77;
 }
-
+.bottom-para{
+    font-size: 20px;
+}
+/* 
 @media screen and (max-width : 600px){
 
-}
+} */
+
+@media (max-width: 768px) {
+    .sec-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .MYcard {
+      width: 100%; /* Take full width on smaller screens */
+    }
+    .bottom-text{
+        font-size: 25px !important;
+        /* margin: auto ; */
+    }
+    .bottom-para{
+        font-size: 15px;
+    }
+  }

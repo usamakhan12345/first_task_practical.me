@@ -2,6 +2,7 @@ import React from 'react'
 import Header from "../../Components/Header/Header"
 import Section from '../../Components/SecondSec/index'
 import ThirdSec from '../../Components/ThrSection/index'
+import InboxSec from '../../Components/InboxSec/index'
 import './Home.css'
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     </div>
     <Section/>
     <ThirdSec/>
+    <InboxSec/>
     </>
   )}
 
