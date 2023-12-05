@@ -14,7 +14,7 @@ const section = () => {
 
         </div >
         <div>
-          <h2>Let's get started</h2>
+          <h2 className='getStartedText'>Let's get started</h2>
         </div>
         <p style={{ textAlign: 'center' }}>There are 7 key things we need to know to recommend the best Plan for you. </p>
         <div className='pagination'>
